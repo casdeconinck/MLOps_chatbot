@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/678851194122660262/fbd2f5cebf6c48e1864b9907254d7c17/artifacts
+end_time: 1717261632095
+entry_point_name: ''
+experiment_id: '678851194122660262'
+lifecycle_stage: active
+run_id: fbd2f5cebf6c48e1864b9907254d7c17
+run_name: bittersweet-eel-135
+run_uuid: fbd2f5cebf6c48e1864b9907254d7c17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717261631895
+status: 4
+tags: []
+user_id: Cas
