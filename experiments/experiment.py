@@ -2,7 +2,7 @@ import mlflow
 from mlflow.models import infer_signature
 
 
-mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
+mlflow.set_tracking_uri(uri="http://localhost:8080")
 
 import pandas as pd
 from sklearn import datasets
