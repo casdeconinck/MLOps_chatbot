@@ -1,5 +1,5 @@
-import chainlit as cl
 import os
+import chainlit as cl
 from chainlit.playground.config import add_llm_provider
 from chainlit.playground.providers.langchain import LangchainGenericProvider
 from langchain import HuggingFaceHub, PromptTemplate, LLMChain
@@ -18,7 +18,7 @@ add_llm_provider(
     )
 )
 
-template = """{query} is delicious and you can prepare it like this:"""
+template = """My name is {query} and I am"""
 
 @cl.on_chat_start
 def main():
@@ -40,5 +40,3 @@ async def main(message: str):
 
     response_text = res.get("text", "Error processing your request")
     await cl.Message(content=response_text).send()
-
-    #fff

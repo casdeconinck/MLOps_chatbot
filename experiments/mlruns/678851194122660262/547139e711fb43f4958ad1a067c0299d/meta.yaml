@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/678851194122660262/547139e711fb43f4958ad1a067c0299d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '678851194122660262'
+lifecycle_stage: active
+run_id: 547139e711fb43f4958ad1a067c0299d
+run_name: skillful-shad-793
+run_uuid: 547139e711fb43f4958ad1a067c0299d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717352078897
+status: 1
+tags: []
+user_id: Cas
