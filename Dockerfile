@@ -6,4 +6,4 @@ COPY . /app
 
 RUN pip3 install -r requirements.txt
 
-CMD ["python3", "-m", "chainlit", "run", "main.py", "--port", "8080", "--host", "0.0.0.0"]
+CMD ["python3", "-m", "chainlit", "run", "app.py", "--port", "8080", "--host", "0.0.0.0"]
