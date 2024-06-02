@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/678851194122660262/bf986a9159b649519a82ddaeb6fb64a7/artifacts
+end_time: 1717346544578
+entry_point_name: ''
+experiment_id: '678851194122660262'
+lifecycle_stage: active
+run_id: bf986a9159b649519a82ddaeb6fb64a7
+run_name: whimsical-carp-623
+run_uuid: bf986a9159b649519a82ddaeb6fb64a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717346526444
+status: 3
+tags: []
+user_id: Cas
