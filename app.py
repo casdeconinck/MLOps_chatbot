@@ -5,7 +5,7 @@ from chainlit.playground.providers.langchain import LangchainGenericProvider
 from langchain import HuggingFaceHub, PromptTemplate, LLMChain
 
 model_id = "openai-community/gpt2-medium"
-conv_model = HuggingFaceHub(huggingfacehub_api_token=os.environ.get('HUGGINGFACE_API_TOKEN'),
+conv_model = HuggingFaceHub(huggingfacehub_api_token=os.environ.get('HUGGINGFACEHUB_API_TOKEN'),
                             repo_id=model_id,
                             model_kwargs={"max_new_tokens": 150})
 

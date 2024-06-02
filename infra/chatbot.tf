@@ -2,14 +2,14 @@ locals {
   hf_token = var.hf_token
 }
 
-resource "aws_apprunner_service" "chatbot" {
-  service_name = "chatbot"
+resource "aws_apprunner_service" "chatbot2" {
+  service_name = "chatbot2"
 
   source_configuration {
     image_repository {
       image_configuration {
         runtime_environment_variables = {
-          HUGGINGFACE_API_TOKEN = local.hf_token
+          HUGGINGFACEHUB_API_TOKEN = local.hf_token
         }
       }
       image_identifier      = "public.ecr.aws/k4w0q8w8/mlops-course-ehb:1"
